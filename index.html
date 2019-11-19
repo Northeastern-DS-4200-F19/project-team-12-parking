@@ -42,19 +42,19 @@
       <p><em>Summary of user needs and motivating questions.</em></p>
       <p><em>Expectation: There is a clear focus, and a developed explanation of the problem, and a reasonable response is proposed.</em></p>
 
-	The user for this project is the Chester Square Neighborhood Association. The goal of this group is "to bring together all persons who live, work or own property within the boundaries of the association for the purpose of promoting neighborly interaction, sharing information and discussing common problems. Further, to promote the implementation of beneficial programs, alone, and in conjunction with other groups and government agencies, to promote the health, well-being, and security of the neighborhood. To conduct such other activities in furtherance of the charitable purpose as may be carried out by a corporation organized under M. G.L. ch. 180 and described in Section 501(c)(3) of the Internal Revenue Code" (CSNA bylaws). </p>
+      The user for this project is the Chester Square Neighborhood Association. The goal of this group is "to bring together all persons who live, work or own property within the boundaries of the association for the purpose of promoting neighborly interaction, sharing information and discussing common problems. Further, to promote the implementation of beneficial programs, alone, and in conjunction with other groups and government agencies, to promote the health, well-being, and security of the neighborhood. To conduct such other activities in furtherance of the charitable purpose as may be carried out by a corporation organized under M. G.L. ch. 180 and described in Section 501(c)(3) of the Internal Revenue Code" (CSNA bylaws). </p>
 
-	<p>With such goals in mind, the group has identified parking as a common problem. They say it is nearly impossible to find parking spaces, and there are nowhere near enough spots for all the residents living there. Additionally, the parking spots that do exist are not being used efficiently. They are interested to know the answers to a few key questions about the current parking situation. </p>
+      <p>With such goals in mind, the group has identified parking as a common problem. They say it is nearly impossible to find parking spaces, and there are nowhere near enough spots for all the residents living there. Additionally, the parking spots that do exist are not being used efficiently. They are interested to know the answers to a few key questions about the current parking situation. </p>
 
-	<p> 1. How long do cars typically stay parked in their spaces? And how does this differ between different types of spots and different types of cars?</p>
+      <p> 1. How long do cars typically stay parked in their spaces? And how does this differ between different types of spots and different types of cars?</p>
 
-	<p> 2. How often are the various spots occupied and how often are they empty? When?</p>
+      <p> 2. How often are the various spots occupied and how often are they empty? When?</p>
 
-	<p> 3. Who is typically parking in each type of spot? When? </p>
+      <p> 3. Who is typically parking in each type of spot? When? </p>
 
-	<p> Using questions like these to drive our data analysis provides valuable insights into the parking patterns of the area. For example, looking at who (resident or nonresident) is parking in each spot at different times of day can give information such as whether residents can't find parking because non-residents are parking illegally in their spots, or if residents are already filling up all spot types and there's just not enough spaces. Similarly, looking at how long cars are staying in the spots can indicate whether it might be a good idea to put a garage or lot somewhere nearby (if cars are just sitting there all day for storage). </p>
+      <p> Using questions like these to drive our data analysis provides valuable insights into the parking patterns of the area. For example, looking at who (resident or nonresident) is parking in each spot at different times of day can give information such as whether residents can't find parking because non-residents are parking illegally in their spots, or if residents are already filling up all spot types and there's just not enough spaces. Similarly, looking at how long cars are staying in the spots can indicate whether it might be a good idea to put a garage or lot somewhere nearby (if cars are just sitting there all day for storage). </p>
 
-	<p> We have created these visualizations in order to help the community find easier access to parking in the Chester Square area. The intent of these visualizations is to guide changes to parking policies and parking utilization of the area. The insights gained from this parking study and the vizualizations created from that data should result in improvements in how both residents and visitors can use the area to its fullest extent. </p>
+      <p> We have created these visualizations in order to help the community find easier access to parking in the Chester Square area. The intent of these visualizations is to guide changes to parking policies and parking utilization of the area. The insights gained from this parking study and the vizualizations created from that data should result in improvements in how both residents and visitors can use the area to its fullest extent. </p>
       
 
       
@@ -64,8 +64,12 @@
     </div>
     
     <!-- Your visualization here -->
-    <div id="vis-holder"> 
-      <img src="map.png" width=400>
+    <div id="vis-holder">
+        <img src="map.png" width=400>
+        <span id="plot-1-holder"> 
+        </span>
+        <span id="plot-2-holder"> 
+        </span>
     </div>
     
     <!-- Your writeup goes here -->
@@ -77,8 +81,7 @@
       <p><em>final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation slides.</em></p>
 
       <h1>Data Analysis</h1>
-      <p> 
-The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot and a column for each hour of the day. This made it easy to record wheter or not a space was being used, was free or was being obstructed in some other way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded for non-Massachusetts vehicles.
+      <p> The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot and a column for each hour of the day. This made it easy to record wheter or not a space was being used, was free or was being obstructed in some other way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded for non-Massachusetts vehicles.
 
       </p>
 
