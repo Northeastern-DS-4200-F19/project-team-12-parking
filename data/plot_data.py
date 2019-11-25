@@ -31,7 +31,7 @@ def new_data(row):
 
 new_df = df.apply(new_data, axis=1)
 
-heatmap = defaultdict(lambda: 1)
+heatmap = defaultdict(lambda: 0)
 max_number_of_times_occupied = 0
 max_number_of_unique_cars = 0
 for index, row in new_df.iterrows():
