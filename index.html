@@ -123,41 +123,59 @@
       <p><em>Expectation: Evidence of iterative improvement.
       Logical discussion of design choices grounded in theory from course.
       Discusses feedback from usability testing.</em></p>
-	
-<figure>
-<img src="Sketch3.JPG" 
+<table> 
+<tr>
+<td> Initial Sketch </td>
+<td>   </td>
+<td> Web Sketch 1 </td>
+<td>   </td>
+<td> Final Visualization </td>
+<tr>
+<tr>
+<td> <img src="Sketch3.JPG" 
 	width=300 
-	alt="Sketch 3" >
-<figcaption> This is another one of the initial sketches we came up with. After rounds of iteration, this was developed into our first visualization. </figcaption>
-</figure>
-
-<figure>
-<img src="WebSketch1.PNG" 
+	alt="Sketch 3" > </td>
+<td>   </td>
+<td> <img src="WebSketch1.PNG" 
 	width=300 
-	alt="Web sketch 1" >
-<figcaption> This is the second iteration of the above sketch. </figcaption>
-</figure>
-
-<figure id=fig1>
-<img src="Sketch2.JPG" 
+	alt="Web sketch 1" > </td>
+<td>   </td>
+<td> <img src="Web1-3.PNG" 
 	width=300 
-	alt="Sketch 2" >
-<figcaption> This is another one of the initial sketches we came up with. After rounds of iteration, this was developed into our second visualization. </figcaption>
-</figure>
+	alt="Web sketch 1 --v3" > </td>
+<tr>
+</table>	
 
-<figure>
-<img src="Sketch1.JPG" 
+<p> The above images show the iterations which led to our first visualization, the map. It began with the sketch, demonstrating the basic idea of a map and suggesting elements showing overall or average occupancies for each section with a heat map. As a group, we evaluated the idea but determined that the map concept could be better used to orient the user to the area and give them an overview of what the current parking situation looks like. We also decided that the occupancy rates could be better shown in other visualizations. So, the sketch developed into the second image seen above. This was developed on the computer and is clearly closer to what our actual visualization looks like. In this visualization, the user gets an overview of the parking layout and can get more details by mousing over the spot types and causing their section to highlight on the map. We thought the CSNA would be able to use this feature to look at specific areas of their choosing, such as where they live, and know what spot types exist there. As said before, we thought that the occupancy could be better shown using different visualizations; therefore we enable the user to look at the occupancy of their chosen zones on another visualization. They can use brushing as well to choose to look at the occupancy of multiple parking zones. </p>
+
+
+<table> 
+<tr>
+<td> Initial Sketch 1 </td>
+<td>   </td>
+<td> Initial Sketch 2 </td>
+<td>   </td>
+<td> Web Sketch </td>
+<tr>
+<tr>
+<td> <img src="Sketch2.JPG" 
 	width=300 
-	alt="Sketch 1" >
-<figcaption> This is one of the initial sketches we came up with. After rounds of iteration, this was developed into our third visualization. </figcaption>
-</figure>
-
-<figure>
+	alt="Sketch 2" > </td>
+<td>   </td>
+<td> <img src="Sketch1.JPG" 
+	width=300 
+	alt="Sketch 1" > </td>
+<td>   </td>
+<td> </span>
 <img src="WebSketch2and3.PNG" 
 	width=500 
-	alt="Web sketches 2 and 3" >
-<figcaption> This is the second iteration of the second and third visualizations. </figcaption>
-</figure>
+	alt="Web sketches 2 and 3" > </td>
+<tr>
+</table>
+
+<p> 
+Above here you see 3 images: two paper sketches and a more tuned web sketch. The paper sketches are what we started with, with the idea in mind that the first one would be used to evaluate how residents and nonresidents were using certain types of spots and for how long, and the second one would be used to see that information on a more granular level by brushing the first. We evaluated these visualizations and decided that while the x axis on Initial Sketch 1 held valuable information, the y axis didn't show information we thought would be as useful. We adapted the visualization and came up with what you see in the web sketch: 3 graphs that are connected via interactivity. The idea was that the user could see an overview of the average occupancy of each spot type compared to its capacity and then drill in to see how many unique cars parked in each spot over its total duration time and for how long. We wanted these graphs to be adjusted to different time windows using the gauge seen below the first graph. After considering what the CSNA wanted to see and what we can do in D3, we determined the first graph didn't show enough information to be value-added enough to keep nor did the gauge. The drill-down information is what really mattered, so we cut out the first graph and went with the information seen in graph 2: # of unique cars and % of 12 hours occupied. For the final visualization we changed the x axis to be a count of hours rather than a percentage and also converted the visualization into a heat map. We made this choice because we thought it was a friendlier view to the user. For the final visualization we also switched the axes on the bottom graph to make it easier to read. 
+</p>
 
 
 
