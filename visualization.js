@@ -1,6 +1,4 @@
 
-let TIMES = ["6am","7am","8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm","6pm","7pm","8pm"]
-
 // set the dimensions and margins of the graph
 var margin_1 = {top: 10, right: 30, bottom: 30, left: 60},
     width_1 = 460 - margin_1.left - margin_1.right,
@@ -60,11 +58,13 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
   var mouseover = function(d) {
     tooltip
       .style("opacity", 1)
-    d3.selectAll(".nt" + d.number_of_times_occupied + ",.uq" + d.number_of_unique_cars)
+    d3.selectAll(".time")
+      .style("opacity", 0.4)
+    d3.selectAll(".nt" + d.number_of_times_occupied + ".uq" + d.number_of_unique_cars)
       .style("opacity", 1)
     d3.select(this)
-      .style("stroke", "black")
       .style("opacity", 1)
+      .style("stroke", "black")
   }
   var mousemove = function(d) {
     tooltip
@@ -75,11 +75,11 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
   var mouseleave = function(d) {
     tooltip
       .style("opacity", 0)
-    d3.selectAll(".nt" + d.number_of_times_occupied + ",.uq" + d.number_of_unique_cars)
-      .style("opacity", 0.8)
+    d3.selectAll(".nt" + d.number_of_times_occupied + ".uq" + d.number_of_unique_cars)
+      .style("opacity", 0.6)
     d3.select(this)
+      .style("opacity", 0.6)
       .style("stroke", "none")
-      .style("opacity", 0.8)
   }
 
   // add the squares
@@ -117,6 +117,7 @@ var plot_2 = d3.select("#plot-2-holder")
         "translate(" + margin_2.left + "," + margin_2.top + ")");
 
 d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-12-parking/gh-pages/data/2_survey_data.csv").then(function(data) {
+  let TIMES = ["6am","7am","8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm","6pm","7pm","8pm"]
 
   // Add X axis
   plot_2.x = d3.scaleLinear()
@@ -133,14 +134,13 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
   plot_2.append("g")
     .call(d3.axisLeft(plot_2.y));
 
-
   plot_2.rects = plot_2.append("g")
     .attr("class", "data")
     .selectAll("g")
     .data(data)
     .enter()
     .append("g")
-    .attr("class", d => "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars )
+    .attr("class", d => "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars + " time" )
     .selectAll("rect")
     .data(d => {
       let spot_number = d.spot_number
@@ -157,7 +157,7 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
     .attr("y", d => plot_2.y(d.y) - (plot_2.y(d.y - 1) - plot_2.y(d.y)))
     .attr("width", d => plot_2.x(d.x) - plot_2.x(d.x - 1))
     .attr("height", d => plot_2.y(d.y - 1) - plot_2.y(d.y))
-    .attr("fill", "#69b3a2")
+    .attr("fill", "#469963")
 });
 
 
