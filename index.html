@@ -25,7 +25,7 @@
 	<body>
   
     <!-- Your writeup goes here -->
-    <div class = "content-column">
+    <div class="content-column">
     
 
       <h1>Project Team 12: Parking, DS 4200 F19</h1>
@@ -65,11 +65,8 @@
     
     <!-- Your visualization here -->
     <div id="vis-holder">
-        <img src="map.png" width=400 alt="Map of the area">
-        <span id="plot-1-holder"> 
-        </span>
-        <span id="plot-2-holder"> 
-        </span>
+        <div id="plot-1-holder"> </div>
+        <div id="plot-2-holder"> </div>
     </div>
     
     <!-- Your writeup goes here -->
@@ -81,15 +78,41 @@
       <p><em>final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation slides.</em></p>
 
       <h1>Data Analysis</h1>
-      <p> The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot and a column for each hour of the day. This made it easy to record wheter or not a space was being used, was free or was being obstructed in some other way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded for non-Massachusetts vehicles.
+      <p> The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot and a column for each hour of the day. 
+        This made it easy to record whether or not a space was being used, was free or was being obstructed in some other way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded for non-Massachusetts vehicles.
 
       </p>
 
       <h1>Task Analysis</h1>
 
-      <p><em>Summary of task table.</em></p>
+      <img src="text_table.png" style="width: 100%;">
 
-      <p><em>Expectation: Clearly describes domain tasks, processes, goals and abstract tasks for domain problems.</em></p>
+      <p>
+        The primary task of our group was to collect and then analyze data to determine how exactly the park’s 
+        parking spaces are being used. This will help inform the Chester Square Neighborhood Association in 
+        how they allocate and regulate parking spaces, as the resident use case is likely to be very different than 
+        people wanting to visit the park from out of the neighborhood.
+      </p>
+      <p>
+        This is done by completing three domain tasks. Our visualizations help users 
+        determine how long people remain parked in a given spot, determine whether or 
+        not residents or visitors are primarily using the parking spots and determine
+        when spots are occupied. Each of these visualizations intend to enable users to
+        "discover", since they enable users to obtain insights and new knowledge that was
+        not previously known. These visualizations also enable users to "browse" since users
+        can search for one or more items that  fit some kind of specification or a 
+        range of attribute values. These visualizations "summarize" the data by 
+        providing a comprehensive view of our findings while also allowing for some 
+        comparison. 
+
+      </p>
+      <p>
+        We’d like to distinguish the normal use case of parking in the area as well as any other use cases and 
+        use these to inform how parking should be designed in the area.
+
+      </p>
+
+
 
       <h1>Design Process</h1>
       
