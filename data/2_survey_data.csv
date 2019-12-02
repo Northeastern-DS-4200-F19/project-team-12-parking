@@ -1,385 +1,385 @@
-spot_number,6am,7am,8am,9am,10am,11am,12pm,1pm,2pm,3pm,4pm,5pm,6pm,7pm,8pm,unique_zone,number_of_times_occupied,number_of_unique_cars
-0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,1Right,0,0
-1,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,1Right,0,0
-2,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,1Right,2,1
-3,true,false,false,false,false,false,false,false,false,false,false,true,true,true,true,1Right,5,2
-4,true,false,false,false,false,false,false,false,false,false,false,true,true,true,true,1Right,5,2
-5,false,false,false,false,false,false,false,false,false,false,false,true,true,false,true,1Right,3,3
-6,true,false,false,false,false,false,false,false,false,false,false,false,false,true,true,1Right,3,2
-7,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-8,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,1,1
-9,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-10,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-11,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-12,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-13,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-14,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,2Right,1,1
-15,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-16,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-17,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-18,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-19,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-20,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-21,true,true,true,true,true,false,false,false,false,false,false,false,false,false,true,2Right,6,2
-22,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,2Right,1,1
-23,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,2Right,3,1
-24,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-25,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0
-26,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Right,3,2
-27,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Right,4,1
-28,true,false,false,true,true,false,false,false,false,false,false,false,false,false,false,2Right,3,2
-29,false,true,true,true,true,true,true,true,false,true,true,false,true,true,false,3aRight,11,4
-30,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1
-31,true,true,true,false,true,true,true,true,true,true,true,true,false,true,true,3aRight,13,3
-32,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,3aRight,0,0
-33,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,3aRight,10,3
-34,false,false,false,false,true,true,false,false,false,false,false,false,false,true,true,3aRight,4,3
-35,true,true,true,false,false,false,true,true,true,true,true,false,true,true,true,3aRight,11,4
-36,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,3aRight,14,1
-37,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,3aRight,12,1
-38,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,3aRight,14,2
-39,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,3aRight,7,3
-40,false,false,false,false,false,false,false,true,true,false,true,false,false,false,false,3aRight,3,2
-41,true,true,false,false,true,true,true,true,true,true,false,false,false,false,false,3aRight,8,3
-42,true,true,true,true,true,true,true,true,true,true,false,false,true,false,true,3aRight,12,3
-43,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,14,3
-44,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1
-45,false,true,true,true,true,true,true,true,false,false,false,false,false,true,false,3aRight,8,3
-46,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,3aRight,5,2
-47,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,14,2
-48,false,false,false,false,false,true,true,true,true,false,false,false,false,false,false,3aRight,4,1
-49,true,true,true,true,true,true,true,true,true,true,true,true,false,true,false,3aRight,13,2
-50,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1
-51,true,false,false,false,false,true,true,true,true,true,true,true,true,true,true,3aRight,11,4
-52,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,3aRight,0,0
-53,true,true,false,false,false,true,true,true,true,true,true,true,true,true,true,3bRight,12,2
-54,true,true,false,true,true,true,true,true,true,true,true,true,true,true,true,3bRight,14,5
-55,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,3bRight,14,3
-56,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3bRight,15,2
-57,true,true,true,false,false,false,false,false,true,true,true,false,false,false,true,3bRight,7,4
-58,false,true,true,true,true,true,true,true,true,true,true,false,false,true,true,3bRight,12,3
-59,true,true,true,false,true,true,true,true,true,false,true,true,false,false,false,3bRight,10,4
-60,true,true,false,false,false,true,true,true,true,true,true,false,false,false,false,3bRight,8,2
-61,true,false,true,false,true,false,true,false,false,false,true,false,true,true,true,4Right,8,6
-62,true,true,true,false,true,true,true,false,true,false,false,false,false,true,true,4Right,9,7
-63,true,true,true,true,true,true,true,true,false,true,false,false,true,true,true,4Right,12,5
-64,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,4Right,14,8
-65,true,true,false,false,true,true,true,true,false,false,false,false,true,true,true,5Right,9,5
-66,true,true,false,false,false,true,true,false,true,false,false,true,true,true,true,5Right,9,5
-67,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,5Right,15,6
-68,true,true,false,false,true,true,false,true,true,true,false,false,true,true,true,5Right,10,8
-69,true,true,true,true,true,true,true,true,false,true,true,true,true,true,true,6Right,14,2
-70,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,6Right,9,9
-71,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,6Right,15,3
-72,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,6Right,6,1
-73,true,true,false,false,false,true,true,false,false,false,false,true,false,true,true,6Right,7,5
-74,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,6Right,0,0
-75,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,6Right,0,0
-76,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,3
-77,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,1
-78,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,5
-79,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,7Right,14,4
-80,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,3
-81,true,true,true,false,true,true,true,true,false,true,true,true,true,true,true,7Right,13,5
-82,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,7Right,0,0
-83,true,true,false,false,true,true,true,true,true,true,true,false,false,false,false,7Right,9,2
-84,true,true,true,true,true,false,false,false,false,false,false,false,true,true,true,7Right,8,3
-85,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,14,3
-86,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,8Right,14,4
-87,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,8Right,0,0
-88,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,8Right,14,3
-89,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,15,1
-90,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,15,1
-91,false,false,true,true,true,true,true,false,false,true,true,true,true,true,true,9Right,11,2
-92,true,false,false,true,true,true,true,true,true,true,true,true,true,true,true,9Right,13,3
-93,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,9Right,0,0
-94,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-95,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,9Right,14,3
-96,true,false,false,true,true,true,true,true,true,true,true,true,true,true,true,9Right,13,7
-97,true,true,false,true,true,true,true,true,true,true,true,true,false,true,true,9Right,13,3
-98,false,true,false,false,false,false,false,false,false,false,false,true,true,true,true,9Right,5,2
-99,false,false,false,true,false,false,false,false,false,false,false,true,true,true,true,9Right,5,2
-100,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-101,true,true,false,false,false,false,false,false,false,true,true,true,true,true,true,9Right,8,2
-102,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-103,true,false,true,false,false,false,false,true,true,true,true,true,true,true,true,9Right,10,4
-104,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,9Right,5,1
-105,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,9Right,0,0
-106,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-107,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-108,false,false,false,false,false,true,false,false,false,true,true,true,true,true,true,9Right,7,2
-109,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,9Right,5,1
-110,true,true,true,true,true,false,false,false,false,true,true,true,true,true,true,9Right,11,3
-111,true,true,true,true,true,true,true,true,true,true,false,true,true,true,true,9Right,14,2
-112,true,true,true,true,true,true,true,true,false,false,true,true,true,true,true,9Right,13,3
-113,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1
-114,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,1
-115,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,14,5
-116,true,true,true,true,false,false,false,false,false,false,false,true,true,true,true,10aRight,8,3
-117,true,true,true,true,true,false,false,false,true,true,true,true,true,true,true,10aRight,12,3
-118,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,4
-119,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,10aRight,14,5
-120,true,true,false,true,true,true,true,false,true,true,true,false,true,true,true,10aRight,12,5
-121,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,10aRight,0,0
-122,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,1
-123,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,2
-124,true,false,false,false,false,true,false,true,true,true,true,true,true,false,true,10aRight,9,5
-125,true,true,false,false,true,true,true,true,true,false,false,false,true,true,true,10aRight,10,6
-126,false,false,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,13,4
-127,true,true,true,false,true,false,false,false,false,false,false,true,false,false,false,10aRight,5,3
-128,true,true,true,false,true,true,true,true,true,true,true,true,true,true,true,10aRight,14,2
-129,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,3
-130,true,true,true,false,true,true,true,true,false,true,true,true,true,true,true,10aRight,13,5
-131,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,2
-132,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,10aRight,14,4
-133,true,true,true,false,true,true,true,false,true,true,false,true,true,true,true,10aRight,12,4
-134,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,10bRight,11,2
-135,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,3
-136,true,true,true,true,true,true,true,false,true,true,true,true,true,true,true,10bRight,14,2
-137,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,1
-138,true,true,true,true,true,true,true,false,true,true,true,true,true,true,true,10bRight,14,3
-139,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,1
-140,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,10bRight,14,3
-141,true,true,false,true,true,true,true,true,true,true,true,true,true,true,true,11Right,14,4
-142,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,11Right,14,3
-143,true,true,true,false,true,true,true,true,true,true,true,false,true,true,true,11Right,13,4
-144,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Right,15,1
-145,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,11Right,14,4
-146,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Right,15,2
-147,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,11Right,0,0
-148,true,true,true,true,true,false,false,true,false,false,false,false,true,true,false,11Right,8,3
-149,true,true,true,false,false,true,true,true,true,true,false,false,false,false,true,11Right,9,3
-150,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,12Right,12,1
-151,true,true,false,false,false,false,false,false,true,false,false,false,false,true,true,12Right,5,3
-152,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,12Right,3,2
-153,true,true,false,false,false,false,false,true,false,false,false,false,false,true,true,12Right,5,3
-154,true,true,false,false,false,true,false,false,true,true,true,false,true,true,true,12Right,9,4
-155,true,true,false,false,true,true,true,true,false,true,false,true,true,true,true,12Right,11,4
-156,true,true,false,false,false,false,false,false,false,false,false,false,false,true,true,12Right,4,2
-157,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,2
-158,true,true,true,true,false,false,false,false,false,false,false,true,true,true,true,12Right,8,2
-159,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,12Right,1,1
-160,true,false,false,false,false,false,true,false,false,false,false,true,true,true,true,12Right,6,4
-161,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1
-162,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1
-163,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0
-164,false,false,false,false,false,true,true,true,true,true,true,true,false,true,true,12Right,9,2
-165,true,true,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,7,2
-166,true,true,true,false,true,true,true,true,true,false,false,true,true,true,true,12Right,12,3
-167,true,true,false,false,false,false,false,false,false,false,false,true,true,true,true,12Right,6,2
-168,true,false,false,false,false,false,false,false,false,true,true,false,true,true,true,12Right,6,3
-169,true,true,true,true,true,true,true,false,false,false,false,false,false,false,true,12Right,8,2
-170,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0
-171,true,true,false,false,false,false,false,false,false,false,false,false,false,false,true,12Right,3,1
-172,true,true,true,true,true,true,false,false,false,false,false,true,false,true,true,12Right,9,3
-173,true,true,true,true,false,false,false,false,false,true,false,false,true,true,true,12Right,8,3
-174,true,false,true,true,true,true,false,false,false,false,false,false,true,true,true,12Right,8,5
-175,false,false,false,false,false,false,true,true,false,true,true,true,true,true,true,12Right,8,2
-176,false,true,true,true,true,true,false,false,false,false,false,false,false,false,false,12Right,5,1
-177,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1
-178,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,12Right,13,1
-179,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1
-180,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0
-181,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,12Right,4,1
-182,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Right,5,2
-183,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,12Right,2,2
-184,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,12Right,14,2
-185,false,false,false,false,true,true,true,true,true,false,false,false,true,true,true,12Right,8,3
-186,true,false,false,false,true,true,true,true,true,true,true,true,false,false,false,12Right,9,3
-187,true,false,true,true,true,true,true,true,false,false,false,false,false,true,true,12Right,9,3
-188,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,3
-189,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,5,2
-190,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,5,1
-191,false,false,false,false,false,false,false,false,false,false,true,true,true,false,true,12Right,4,2
-192,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1
-193,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-194,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-195,false,false,false,true,true,false,false,false,false,false,true,true,true,true,true,13Right,7,2
-196,true,false,false,false,false,true,true,true,true,true,true,true,true,true,true,13Right,11,2
-197,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-198,true,false,true,true,true,true,false,true,true,true,true,false,true,true,true,13Right,12,5
-199,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-200,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,13Right,14,2
-201,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Right,0,0
-202,true,true,true,true,true,true,true,true,true,true,false,true,true,true,true,13Right,14,11
-203,true,true,true,true,true,false,false,false,false,false,true,true,true,true,true,13Right,10,2
-204,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-205,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-206,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,13Right,11,3
-207,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-208,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-209,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-210,true,true,true,true,true,true,false,false,true,true,true,true,true,true,true,13Right,13,2
-211,true,true,false,false,true,true,true,true,true,true,true,true,true,true,true,13Right,13,3
-212,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-213,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-214,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-215,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,13Right,3,1
-216,true,true,true,true,true,true,true,true,true,false,false,true,true,true,true,13Right,13,3
-217,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,13Right,14,2
-218,true,true,true,true,true,true,true,true,true,false,false,false,true,true,true,13Right,12,1
-219,true,true,false,false,false,false,false,false,false,true,true,true,true,true,true,13Right,8,3
-220,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-221,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-222,false,true,false,false,false,false,true,true,true,true,true,true,true,true,true,13Right,10,2
-223,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-224,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-225,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-226,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-227,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-228,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-229,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,13Right,14,2
-230,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-231,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,14,2
-232,true,true,true,true,true,true,true,true,false,false,false,true,true,true,true,13Right,12,3
-233,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,13Right,14,4
-234,false,true,true,true,false,true,true,true,true,true,true,true,true,true,true,13Right,13,4
-235,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1
-236,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1
-237,true,true,true,true,true,true,false,true,false,true,true,true,true,true,true,14Right,13,5
-238,true,true,true,true,true,false,false,false,true,true,true,true,true,true,true,14Right,12,3
-239,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1
-240,false,false,false,true,true,true,true,true,true,true,true,true,true,true,true,14Right,12,2
-241,true,false,true,false,false,false,false,false,false,true,true,true,true,true,true,14Right,8,3
-242,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,14Right,0,0
-243,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1
-244,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,14Right,0,0
-245,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1
-246,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1
-247,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1
-248,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,2,1
-249,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,3,2
-250,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,3,1
-251,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,2,1
-252,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1
-253,true,false,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,3,1
-254,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0
-255,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0
-256,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0
-257,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0
-258,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0
-259,true,true,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,4,2
-260,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,5,2
-261,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,4,2
-262,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-263,true,true,true,false,false,false,false,false,false,true,true,true,true,true,true,9Left,9,3
-264,false,false,false,true,true,true,false,false,false,false,true,true,true,true,true,9Left,8,2
-265,true,true,true,true,true,false,true,false,false,false,false,false,false,true,true,9Left,8,4
-266,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-267,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-268,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-269,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-270,true,true,false,false,false,false,true,true,true,false,false,true,true,true,true,9Left,9,4
-271,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,2
-272,true,false,false,false,false,true,true,true,true,false,true,true,true,true,true,9Left,10,3
-273,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,9Left,1,1
-274,true,true,true,true,true,true,true,false,false,false,true,true,true,true,true,9Left,12,3
-275,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-276,false,false,false,false,false,false,false,true,false,false,true,true,true,true,true,9Left,6,2
-277,true,true,true,false,true,false,false,false,false,false,false,false,false,false,false,9Left,4,2
-278,true,true,true,true,true,false,false,false,true,false,true,true,true,true,true,9Left,11,3
-279,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1
-280,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,9Left,4,1
-281,true,false,true,false,true,false,true,true,true,true,false,true,true,true,true,9Left,11,5
-282,true,true,true,true,false,true,false,false,false,false,true,true,true,true,true,9Left,10,2
-283,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,1
-284,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,11Left,9,2
-285,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,2
-286,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,2
-287,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,4
-288,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,1
-289,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,4,1
-290,false,false,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,13,1
-291,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0
-292,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,14,2
-293,true,true,true,true,true,true,false,false,false,false,true,true,true,true,true,12Left,11,2
-294,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0
-295,true,true,false,false,true,false,false,false,false,false,false,true,true,true,true,12Left,7,3
-296,true,true,true,false,false,false,false,false,true,true,true,true,true,true,true,12Left,10,2
-297,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,12Left,14,2
-298,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,12Left,2,1
-299,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,12Left,14,1
-300,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,1,1
-301,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-302,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,5,2
-303,true,true,false,false,false,false,false,false,true,false,true,true,true,true,true,12Left,8,3
-304,false,false,false,false,false,false,false,true,true,true,true,true,true,false,true,12Left,7,3
-305,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,12Left,9,1
-306,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,12Left,6,2
-307,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0
-308,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,12Left,14,2
-309,true,false,false,false,false,false,false,false,true,true,true,true,true,true,true,12Left,8,2
-310,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,12Left,2,1
-311,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2
-312,false,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,4,2
-313,true,false,false,false,true,true,true,false,true,true,true,true,true,true,true,12Left,11,4
-314,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-315,true,true,true,false,false,false,false,false,false,false,false,true,true,true,true,12Left,7,2
-316,false,false,true,false,true,true,true,true,true,true,true,true,true,true,true,12Left,12,3
-317,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-318,true,true,true,true,true,true,false,false,false,true,false,false,true,true,true,12Left,10,3
-319,true,true,true,false,false,false,false,false,false,false,false,false,false,false,true,12Left,4,2
-320,false,false,false,false,true,true,true,true,true,false,false,false,false,false,false,12Left,5,1
-321,true,true,true,true,true,true,false,false,true,false,true,true,true,true,true,12Left,12,3
-322,true,false,true,true,false,false,false,false,false,true,true,true,true,true,true,12Left,9,3
-323,true,true,false,false,false,false,false,false,true,true,true,true,true,true,true,12Left,9,2
-324,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-325,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-326,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-327,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2
-328,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,12Left,1,1
-329,true,true,false,true,false,true,true,true,false,false,false,true,true,true,false,12Left,9,4
-330,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1
-331,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2
-332,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2
-333,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,12Left,14,4
-334,true,true,true,true,true,true,false,false,false,false,false,true,true,true,true,12Left,10,3
-335,false,true,true,true,false,false,false,false,false,true,true,true,true,true,true,12Left,9,3
-336,false,false,false,false,true,true,true,true,true,false,false,false,false,false,true,12Left,6,2
-337,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-338,true,true,false,false,true,true,true,true,false,true,true,false,true,true,true,13Left,11,6
-339,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-340,true,true,true,false,true,true,true,true,true,true,true,true,true,true,true,13Left,14,3
-341,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-342,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2
-343,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,14,2
-344,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,13Left,11,3
-345,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,13Left,6,1
-346,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2
-347,false,false,false,false,false,true,false,false,false,false,false,true,true,true,true,13Left,5,2
-348,true,false,false,true,false,false,false,false,false,false,false,false,true,true,false,13Left,4,3
-349,false,false,false,false,false,false,false,false,false,false,false,true,true,true,false,13Left,3,1
-350,true,true,false,true,false,false,false,false,false,false,false,false,false,true,true,13Left,5,3
-351,true,true,true,false,true,true,true,false,false,true,true,true,true,true,true,13Left,12,4
-352,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-353,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0
-354,true,true,true,false,false,true,true,true,true,false,false,false,true,true,true,13Left,10,3
-355,true,false,false,true,true,false,true,true,true,false,false,false,true,true,true,13Left,9,4
-356,true,true,true,true,true,true,true,false,true,false,false,true,true,true,true,13Left,12,3
-357,true,false,false,false,false,false,false,true,true,true,true,true,true,true,true,13Left,9,3
-358,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0
-359,true,true,false,true,false,true,true,true,true,true,true,true,true,true,true,13Left,13,3
-360,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-361,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-362,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2
-363,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0
-364,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-365,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-366,true,false,false,false,false,false,false,false,true,false,true,true,true,true,true,13Left,7,3
-367,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2
-368,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-369,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-370,true,true,true,true,true,true,true,true,true,false,false,true,true,true,true,13Left,13,1
-371,true,true,true,true,true,true,true,true,false,true,true,true,true,true,true,13Left,14,2
-372,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1
-373,true,false,false,false,false,true,true,false,false,false,false,true,true,true,true,13Left,7,3
-374,false,true,true,false,false,false,false,true,true,true,true,true,true,true,true,13Left,10,3
-375,true,true,true,true,false,true,false,true,true,true,true,true,true,true,true,14Left,13,4
-376,true,true,true,false,true,true,true,false,true,true,true,true,true,true,true,14Left,13,4
-377,true,true,false,true,true,true,true,true,false,false,false,true,true,true,true,14Left,11,4
-378,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Left,15,4
-379,true,true,true,false,false,true,true,true,false,false,true,true,true,true,true,14Left,11,5
-380,true,true,false,false,false,false,false,false,true,false,false,true,true,true,true,14Left,7,3
-381,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,14Left,7,3
-382,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,14Left,3,1
-383,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,14Left,3,1
+spot_number,6am,7am,8am,9am,10am,11am,12pm,1pm,2pm,3pm,4pm,5pm,6pm,7pm,8pm,unique_zone,number_of_times_occupied,number_of_unique_cars,spot_type
+0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,1Right,0,0,Resident Only
+1,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,1Right,0,0,Resident Only
+2,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,1Right,2,1,Resident Only
+3,true,false,false,false,false,false,false,false,false,false,false,true,true,true,true,1Right,5,2,Resident Only
+4,true,false,false,false,false,false,false,false,false,false,false,true,true,true,true,1Right,5,2,Resident Only
+5,false,false,false,false,false,false,false,false,false,false,false,true,true,false,true,1Right,3,3,Resident Only
+6,true,false,false,false,false,false,false,false,false,false,false,false,false,true,true,1Right,3,2,Resident Only
+7,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+8,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,1,1,Resident Only
+9,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+10,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+11,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+12,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+13,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+14,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,2Right,1,1,Resident Only
+15,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+16,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+17,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+18,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+19,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+20,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+21,true,true,true,true,true,false,false,false,false,false,false,false,false,false,true,2Right,6,2,Resident Only
+22,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,2Right,1,1,Resident Only
+23,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,2Right,3,1,Resident Only
+24,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+25,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Right,0,0,Resident Only
+26,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Right,3,2,Resident Only
+27,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Right,4,1,Resident Only
+28,true,false,false,true,true,false,false,false,false,false,false,false,false,false,false,2Right,3,2,Resident Only
+29,false,true,true,true,true,true,true,true,false,true,true,false,true,true,false,3aRight,11,4,Resident Only
+30,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1,Resident Only
+31,true,true,true,false,true,true,true,true,true,true,true,true,false,true,true,3aRight,13,3,Resident Only
+32,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,3aRight,0,0,Resident Only
+33,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,3aRight,10,3,Resident Only
+34,false,false,false,false,true,true,false,false,false,false,false,false,false,true,true,3aRight,4,3,Resident Only
+35,true,true,true,false,false,false,true,true,true,true,true,false,true,true,true,3aRight,11,4,Resident Only
+36,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,3aRight,14,1,Resident Only
+37,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,3aRight,12,1,Resident Only
+38,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,3aRight,14,2,Resident Only
+39,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,3aRight,7,3,Resident Only
+40,false,false,false,false,false,false,false,true,true,false,true,false,false,false,false,3aRight,3,2,Resident Only
+41,true,true,false,false,true,true,true,true,true,true,false,false,false,false,false,3aRight,8,3,Resident Only
+42,true,true,true,true,true,true,true,true,true,true,false,false,true,false,true,3aRight,12,3,Resident Only
+43,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,14,3,Resident Only
+44,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1,Resident Only
+45,false,true,true,true,true,true,true,true,false,false,false,false,false,true,false,3aRight,8,3,Resident Only
+46,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,3aRight,5,2,Resident Only
+47,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,14,2,Resident Only
+48,false,false,false,false,false,true,true,true,true,false,false,false,false,false,false,3aRight,4,1,Resident Only
+49,true,true,true,true,true,true,true,true,true,true,true,true,false,true,false,3aRight,13,2,Resident Only
+50,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3aRight,15,1,Resident Only
+51,true,false,false,false,false,true,true,true,true,true,true,true,true,true,true,3aRight,11,4,Resident Only
+52,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,3aRight,0,0,Resident Only
+53,true,true,false,false,false,true,true,true,true,true,true,true,true,true,true,3bRight,12,2,Unrestricted
+54,true,true,false,true,true,true,true,true,true,true,true,true,true,true,true,3bRight,14,5,Unrestricted
+55,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,3bRight,14,3,Unrestricted
+56,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,3bRight,15,2,Unrestricted
+57,true,true,true,false,false,false,false,false,true,true,true,false,false,false,true,3bRight,7,4,Unrestricted
+58,false,true,true,true,true,true,true,true,true,true,true,false,false,true,true,3bRight,12,3,Unrestricted
+59,true,true,true,false,true,true,true,true,true,false,true,true,false,false,false,3bRight,10,4,Unrestricted
+60,true,true,false,false,false,true,true,true,true,true,true,false,false,false,false,3bRight,8,2,Unrestricted
+61,true,false,true,false,true,false,true,false,false,false,true,false,true,true,true,4Right,8,6,Metered
+62,true,true,true,false,true,true,true,false,true,false,false,false,false,true,true,4Right,9,7,Metered
+63,true,true,true,true,true,true,true,true,false,true,false,false,true,true,true,4Right,12,5,Metered
+64,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,4Right,14,8,Metered
+65,true,true,false,false,true,true,true,true,false,false,false,false,true,true,true,5Right,9,5,Metered
+66,true,true,false,false,false,true,true,false,true,false,false,true,true,true,true,5Right,9,5,Metered
+67,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,5Right,15,6,Metered
+68,true,true,false,false,true,true,false,true,true,true,false,false,true,true,true,5Right,10,8,Metered
+69,true,true,true,true,true,true,true,true,false,true,true,true,true,true,true,6Right,14,2,Unrestricted
+70,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,6Right,9,9,Unrestricted
+71,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,6Right,15,3,Unrestricted
+72,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,6Right,6,1,Unrestricted
+73,true,true,false,false,false,true,true,false,false,false,false,true,false,true,true,6Right,7,5,Unrestricted
+74,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,6Right,0,0,Unrestricted
+75,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,6Right,0,0,Unrestricted
+76,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,3,Unrestricted
+77,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,1,Unrestricted
+78,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,5,Unrestricted
+79,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,7Right,14,4,Unrestricted
+80,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,7Right,15,3,Unrestricted
+81,true,true,true,false,true,true,true,true,false,true,true,true,true,true,true,7Right,13,5,Unrestricted
+82,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,7Right,0,0,Unrestricted
+83,true,true,false,false,true,true,true,true,true,true,true,false,false,false,false,7Right,9,2,Unrestricted
+84,true,true,true,true,true,false,false,false,false,false,false,false,true,true,true,7Right,8,3,Unrestricted
+85,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,14,3,Unrestricted
+86,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,8Right,14,4,Unrestricted
+87,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,8Right,0,0,Unrestricted
+88,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,8Right,14,3,Unrestricted
+89,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,15,1,Unrestricted
+90,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,8Right,15,1,Unrestricted
+91,false,false,true,true,true,true,true,false,false,true,true,true,true,true,true,9Right,11,2,Resident Only
+92,true,false,false,true,true,true,true,true,true,true,true,true,true,true,true,9Right,13,3,Resident Only
+93,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,9Right,0,0,Resident Only
+94,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+95,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,9Right,14,3,Resident Only
+96,true,false,false,true,true,true,true,true,true,true,true,true,true,true,true,9Right,13,7,Resident Only
+97,true,true,false,true,true,true,true,true,true,true,true,true,false,true,true,9Right,13,3,Resident Only
+98,false,true,false,false,false,false,false,false,false,false,false,true,true,true,true,9Right,5,2,Resident Only
+99,false,false,false,true,false,false,false,false,false,false,false,true,true,true,true,9Right,5,2,Resident Only
+100,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+101,true,true,false,false,false,false,false,false,false,true,true,true,true,true,true,9Right,8,2,Handicapped
+102,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+103,true,false,true,false,false,false,false,true,true,true,true,true,true,true,true,9Right,10,4,Resident Only
+104,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,9Right,5,1,Resident Only
+105,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,9Right,0,0,Resident Only
+106,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+107,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+108,false,false,false,false,false,true,false,false,false,true,true,true,true,true,true,9Right,7,2,Resident Only
+109,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,9Right,5,1,Resident Only
+110,true,true,true,true,true,false,false,false,false,true,true,true,true,true,true,9Right,11,3,Resident Only
+111,true,true,true,true,true,true,true,true,true,true,false,true,true,true,true,9Right,14,2,Resident Only
+112,true,true,true,true,true,true,true,true,false,false,true,true,true,true,true,9Right,13,3,Resident Only
+113,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Right,15,1,Resident Only
+114,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,1,Resident Only
+115,true,false,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,14,5,Resident Only
+116,true,true,true,true,false,false,false,false,false,false,false,true,true,true,true,10aRight,8,3,Resident Only
+117,true,true,true,true,true,false,false,false,true,true,true,true,true,true,true,10aRight,12,3,Resident Only
+118,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,4,Resident Only
+119,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,10aRight,14,5,Resident Only
+120,true,true,false,true,true,true,true,false,true,true,true,false,true,true,true,10aRight,12,5,Resident Only
+121,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,10aRight,0,0,Resident Only
+122,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,1,Resident Only
+123,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,2,Resident Only
+124,true,false,false,false,false,true,false,true,true,true,true,true,true,false,true,10aRight,9,5,Resident Only
+125,true,true,false,false,true,true,true,true,true,false,false,false,true,true,true,10aRight,10,6,Resident Only
+126,false,false,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,13,4,Resident Only
+127,true,true,true,false,true,false,false,false,false,false,false,true,false,false,false,10aRight,5,3,Resident Only
+128,true,true,true,false,true,true,true,true,true,true,true,true,true,true,true,10aRight,14,2,Resident Only
+129,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,3,Resident Only
+130,true,true,true,false,true,true,true,true,false,true,true,true,true,true,true,10aRight,13,5,Resident Only
+131,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10aRight,15,2,Resident Only
+132,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,10aRight,14,4,Resident Only
+133,true,true,true,false,true,true,true,false,true,true,false,true,true,true,true,10aRight,12,4,Resident Only
+134,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,10bRight,11,2,Resident Only
+135,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,3,Resident Only
+136,true,true,true,true,true,true,true,false,true,true,true,true,true,true,true,10bRight,14,2,Resident Only
+137,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,1,Resident Only
+138,true,true,true,true,true,true,true,false,true,true,true,true,true,true,true,10bRight,14,3,Resident Only
+139,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,10bRight,15,1,Resident Only
+140,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,10bRight,14,3,Resident Only
+141,true,true,false,true,true,true,true,true,true,true,true,true,true,true,true,11Right,14,4,Resident Only
+142,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,11Right,14,3,Resident Only
+143,true,true,true,false,true,true,true,true,true,true,true,false,true,true,true,11Right,13,4,Resident Only
+144,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Right,15,1,Resident Only
+145,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,11Right,14,4,Resident Only
+146,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Right,15,2,Resident Only
+147,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,11Right,0,0,Resident Only
+148,true,true,true,true,true,false,false,true,false,false,false,false,true,true,false,11Right,8,3,Handicapped
+149,true,true,true,false,false,true,true,true,true,true,false,false,false,false,true,11Right,9,3,Handicapped
+150,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,12Right,12,1,Resident Only
+151,true,true,false,false,false,false,false,false,true,false,false,false,false,true,true,12Right,5,3,Resident Only
+152,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,12Right,3,2,Resident Only
+153,true,true,false,false,false,false,false,true,false,false,false,false,false,true,true,12Right,5,3,Resident Only
+154,true,true,false,false,false,true,false,false,true,true,true,false,true,true,true,12Right,9,4,Resident Only
+155,true,true,false,false,true,true,true,true,false,true,false,true,true,true,true,12Right,11,4,Resident Only
+156,true,true,false,false,false,false,false,false,false,false,false,false,false,true,true,12Right,4,2,Resident Only
+157,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,2,Resident Only
+158,true,true,true,true,false,false,false,false,false,false,false,true,true,true,true,12Right,8,2,Resident Only
+159,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,12Right,1,1,Resident Only
+160,true,false,false,false,false,false,true,false,false,false,false,true,true,true,true,12Right,6,4,Resident Only
+161,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1,Resident Only
+162,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1,Resident Only
+163,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0,Resident Only
+164,false,false,false,false,false,true,true,true,true,true,true,true,false,true,true,12Right,9,2,Resident Only
+165,true,true,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,7,2,Resident Only
+166,true,true,true,false,true,true,true,true,true,false,false,true,true,true,true,12Right,12,3,Resident Only
+167,true,true,false,false,false,false,false,false,false,false,false,true,true,true,true,12Right,6,2,Resident Only
+168,true,false,false,false,false,false,false,false,false,true,true,false,true,true,true,12Right,6,3,Resident Only
+169,true,true,true,true,true,true,true,false,false,false,false,false,false,false,true,12Right,8,2,Resident Only
+170,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0,Resident Only
+171,true,true,false,false,false,false,false,false,false,false,false,false,false,false,true,12Right,3,1,Resident Only
+172,true,true,true,true,true,true,false,false,false,false,false,true,false,true,true,12Right,9,3,Resident Only
+173,true,true,true,true,false,false,false,false,false,true,false,false,true,true,true,12Right,8,3,Resident Only
+174,true,false,true,true,true,true,false,false,false,false,false,false,true,true,true,12Right,8,5,Resident Only
+175,false,false,false,false,false,false,true,true,false,true,true,true,true,true,true,12Right,8,2,Resident Only
+176,false,true,true,true,true,true,false,false,false,false,false,false,false,false,false,12Right,5,1,Resident Only
+177,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1,Resident Only
+178,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,12Right,13,1,Resident Only
+179,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1,Resident Only
+180,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Right,0,0,Resident Only
+181,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,12Right,4,1,Resident Only
+182,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Right,5,2,Resident Only
+183,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,12Right,2,2,Resident Only
+184,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,12Right,14,2,Resident Only
+185,false,false,false,false,true,true,true,true,true,false,false,false,true,true,true,12Right,8,3,Resident Only
+186,true,false,false,false,true,true,true,true,true,true,true,true,false,false,false,12Right,9,3,Resident Only
+187,true,false,true,true,true,true,true,true,false,false,false,false,false,true,true,12Right,9,3,Resident Only
+188,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,3,Resident Only
+189,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,5,2,Resident Only
+190,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,12Right,5,1,Resident Only
+191,false,false,false,false,false,false,false,false,false,false,true,true,true,false,true,12Right,4,2,Resident Only
+192,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Right,15,1,Resident Only
+193,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+194,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+195,false,false,false,true,true,false,false,false,false,false,true,true,true,true,true,13Right,7,2,Resident Only
+196,true,false,false,false,false,true,true,true,true,true,true,true,true,true,true,13Right,11,2,Resident Only
+197,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+198,true,false,true,true,true,true,false,true,true,true,true,false,true,true,true,13Right,12,5,Resident Only
+199,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+200,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,13Right,14,2,Resident Only
+201,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Right,0,0,Resident Only
+202,true,true,true,true,true,true,true,true,true,true,false,true,true,true,true,13Right,14,11,Resident Only
+203,true,true,true,true,true,false,false,false,false,false,true,true,true,true,true,13Right,10,2,Resident Only
+204,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+205,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+206,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,13Right,11,3,Resident Only
+207,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+208,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+209,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+210,true,true,true,true,true,true,false,false,true,true,true,true,true,true,true,13Right,13,2,Resident Only
+211,true,true,false,false,true,true,true,true,true,true,true,true,true,true,true,13Right,13,3,Resident Only
+212,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+213,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+214,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+215,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,13Right,3,1,Resident Only
+216,true,true,true,true,true,true,true,true,true,false,false,true,true,true,true,13Right,13,3,Resident Only
+217,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,13Right,14,2,Resident Only
+218,true,true,true,true,true,true,true,true,true,false,false,false,true,true,true,13Right,12,1,Resident Only
+219,true,true,false,false,false,false,false,false,false,true,true,true,true,true,true,13Right,8,3,Resident Only
+220,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+221,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+222,false,true,false,false,false,false,true,true,true,true,true,true,true,true,true,13Right,10,2,Resident Only
+223,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+224,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+225,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+226,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+227,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+228,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+229,true,true,true,true,true,true,true,true,true,false,true,true,true,true,true,13Right,14,2,Resident Only
+230,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Resident Only
+231,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,14,2,Visitor
+232,true,true,true,true,true,true,true,true,false,false,false,true,true,true,true,13Right,12,3,Visitor
+233,true,true,true,true,false,true,true,true,true,true,true,true,true,true,true,13Right,14,4,Visitor
+234,false,true,true,true,false,true,true,true,true,true,true,true,true,true,true,13Right,13,4,Visitor
+235,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Right,15,1,Visitor
+236,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1,Resident Only
+237,true,true,true,true,true,true,false,true,false,true,true,true,true,true,true,14Right,13,5,Resident Only
+238,true,true,true,true,true,false,false,false,true,true,true,true,true,true,true,14Right,12,3,Resident Only
+239,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1,Resident Only
+240,false,false,false,true,true,true,true,true,true,true,true,true,true,true,true,14Right,12,2,Resident Only
+241,true,false,true,false,false,false,false,false,false,true,true,true,true,true,true,14Right,8,3,Resident Only
+242,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,14Right,0,0,Resident Only
+243,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Right,15,1,Resident Only
+244,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,14Right,0,0,Resident Only
+245,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1,Resident Only
+246,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1,Resident Only
+247,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1,Resident Only
+248,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,2,1,Resident Only
+249,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,3,2,Resident Only
+250,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,3,1,Resident Only
+251,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,2,1,Resident Only
+252,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,1,1,Resident Only
+253,true,false,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,3,1,Resident Only
+254,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0,Resident Only
+255,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0,Resident Only
+256,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0,Resident Only
+257,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0,Resident Only
+258,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,2Left,0,0,Resident Only
+259,true,true,false,false,false,false,false,false,false,false,false,false,false,true,true,2Left,4,2,Resident Only
+260,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,5,2,Resident Only
+261,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,2Left,4,2,Resident Only
+262,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+263,true,true,true,false,false,false,false,false,false,true,true,true,true,true,true,9Left,9,3,Resident Only
+264,false,false,false,true,true,true,false,false,false,false,true,true,true,true,true,9Left,8,2,Resident Only
+265,true,true,true,true,true,false,true,false,false,false,false,false,false,true,true,9Left,8,4,Resident Only
+266,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+267,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+268,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+269,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+270,true,true,false,false,false,false,true,true,true,false,false,true,true,true,true,9Left,9,4,Resident Only
+271,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,2,Resident Only
+272,true,false,false,false,false,true,true,true,true,false,true,true,true,true,true,9Left,10,3,Resident Only
+273,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,9Left,1,1,Resident Only
+274,true,true,true,true,true,true,true,false,false,false,true,true,true,true,true,9Left,12,3,Resident Only
+275,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+276,false,false,false,false,false,false,false,true,false,false,true,true,true,true,true,9Left,6,2,Resident Only
+277,true,true,true,false,true,false,false,false,false,false,false,false,false,false,false,9Left,4,2,Resident Only
+278,true,true,true,true,true,false,false,false,true,false,true,true,true,true,true,9Left,11,3,Resident Only
+279,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,9Left,15,1,Resident Only
+280,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,9Left,4,1,Resident Only
+281,true,false,true,false,true,false,true,true,true,true,false,true,true,true,true,9Left,11,5,Resident Only
+282,true,true,true,true,false,true,false,false,false,false,true,true,true,true,true,9Left,10,2,Resident Only
+283,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,1,Resident Only
+284,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,11Left,9,2,Resident Only
+285,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,2,Resident Only
+286,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,2,Resident Only
+287,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,4,Resident Only
+288,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,11Left,15,1,Resident Only
+289,true,false,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,4,1,Resident Only
+290,false,false,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,13,1,Resident Only
+291,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0,Resident Only
+292,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,14,2,Resident Only
+293,true,true,true,true,true,true,false,false,false,false,true,true,true,true,true,12Left,11,2,Resident Only
+294,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0,Resident Only
+295,true,true,false,false,true,false,false,false,false,false,false,true,true,true,true,12Left,7,3,Resident Only
+296,true,true,true,false,false,false,false,false,true,true,true,true,true,true,true,12Left,10,2,Resident Only
+297,true,true,true,true,true,true,true,true,true,true,true,false,true,true,true,12Left,14,2,Resident Only
+298,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,12Left,2,1,Resident Only
+299,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,12Left,14,1,Resident Only
+300,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,1,1,Resident Only
+301,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+302,true,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,5,2,Resident Only
+303,true,true,false,false,false,false,false,false,true,false,true,true,true,true,true,12Left,8,3,Resident Only
+304,false,false,false,false,false,false,false,true,true,true,true,true,true,false,true,12Left,7,3,Resident Only
+305,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,12Left,9,1,Resident Only
+306,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,12Left,6,2,Resident Only
+307,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,12Left,0,0,Resident Only
+308,true,true,true,true,true,true,true,true,true,true,true,true,false,true,true,12Left,14,2,Resident Only
+309,true,false,false,false,false,false,false,false,true,true,true,true,true,true,true,12Left,8,2,Resident Only
+310,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,12Left,2,1,Resident Only
+311,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2,Resident Only
+312,false,true,false,false,false,false,false,false,false,false,false,false,true,true,true,12Left,4,2,Resident Only
+313,true,false,false,false,true,true,true,false,true,true,true,true,true,true,true,12Left,11,4,Resident Only
+314,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+315,true,true,true,false,false,false,false,false,false,false,false,true,true,true,true,12Left,7,2,Resident Only
+316,false,false,true,false,true,true,true,true,true,true,true,true,true,true,true,12Left,12,3,Resident Only
+317,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+318,true,true,true,true,true,true,false,false,false,true,false,false,true,true,true,12Left,10,3,Resident Only
+319,true,true,true,false,false,false,false,false,false,false,false,false,false,false,true,12Left,4,2,Resident Only
+320,false,false,false,false,true,true,true,true,true,false,false,false,false,false,false,12Left,5,1,Resident Only
+321,true,true,true,true,true,true,false,false,true,false,true,true,true,true,true,12Left,12,3,Resident Only
+322,true,false,true,true,false,false,false,false,false,true,true,true,true,true,true,12Left,9,3,Resident Only
+323,true,true,false,false,false,false,false,false,true,true,true,true,true,true,true,12Left,9,2,Resident Only
+324,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+325,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+326,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+327,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2,Resident Only
+328,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,12Left,1,1,Resident Only
+329,true,true,false,true,false,true,true,true,false,false,false,true,true,true,false,12Left,9,4,Resident Only
+330,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,1,Resident Only
+331,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2,Resident Only
+332,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,12Left,15,2,Resident Only
+333,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,12Left,14,4,Resident Only
+334,true,true,true,true,true,true,false,false,false,false,false,true,true,true,true,12Left,10,3,Resident Only
+335,false,true,true,true,false,false,false,false,false,true,true,true,true,true,true,12Left,9,3,Resident Only
+336,false,false,false,false,true,true,true,true,true,false,false,false,false,false,true,12Left,6,2,Resident Only
+337,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Visitor Parking
+338,true,true,false,false,true,true,true,true,false,true,true,false,true,true,true,13Left,11,6,Visitor Parking
+339,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Visitor Parking
+340,true,true,true,false,true,true,true,true,true,true,true,true,true,true,true,13Left,14,3,Visitor Parking
+341,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Visitor Parking
+342,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2,Visitor Parking
+343,false,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,14,2,Handicapped
+344,false,false,false,false,true,true,true,true,true,true,true,true,true,true,true,13Left,11,3,Visitor Parking
+345,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,13Left,6,1,Handicapped
+346,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2,Visitor Parking
+347,false,false,false,false,false,true,false,false,false,false,false,true,true,true,true,13Left,5,2,Visitor Parking
+348,true,false,false,true,false,false,false,false,false,false,false,false,true,true,false,13Left,4,3,Visitor Parking
+349,false,false,false,false,false,false,false,false,false,false,false,true,true,true,false,13Left,3,1,Visitor Parking
+350,true,true,false,true,false,false,false,false,false,false,false,false,false,true,true,13Left,5,3,Visitor Parking
+351,true,true,true,false,true,true,true,false,false,true,true,true,true,true,true,13Left,12,4,Visitor Parking
+352,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Visitor Parking
+353,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0,Visitor Parking
+354,true,true,true,false,false,true,true,true,true,false,false,false,true,true,true,13Left,10,3,Visitor Parking
+355,true,false,false,true,true,false,true,true,true,false,false,false,true,true,true,13Left,9,4,Visitor Parking
+356,true,true,true,true,true,true,true,false,true,false,false,true,true,true,true,13Left,12,3,Visitor Parking
+357,true,false,false,false,false,false,false,true,true,true,true,true,true,true,true,13Left,9,3,Resident Only
+358,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0,Resident Only
+359,true,true,false,true,false,true,true,true,true,true,true,true,true,true,true,13Left,13,3,Resident Only
+360,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+361,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+362,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2,Resident Only
+363,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,13Left,0,0,Resident Only
+364,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+365,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+366,true,false,false,false,false,false,false,false,true,false,true,true,true,true,true,13Left,7,3,Resident Only
+367,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,2,Resident Only
+368,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+369,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+370,true,true,true,true,true,true,true,true,true,false,false,true,true,true,true,13Left,13,1,Handicapped
+371,true,true,true,true,true,true,true,true,false,true,true,true,true,true,true,13Left,14,2,Resident Only
+372,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13Left,15,1,Resident Only
+373,true,false,false,false,false,true,true,false,false,false,false,true,true,true,true,13Left,7,3,Resident Only
+374,false,true,true,false,false,false,false,true,true,true,true,true,true,true,true,13Left,10,3,Resident Only
+375,true,true,true,true,false,true,false,true,true,true,true,true,true,true,true,14Left,13,4,Resident Only
+376,true,true,true,false,true,true,true,false,true,true,true,true,true,true,true,14Left,13,4,Resident Only
+377,true,true,false,true,true,true,true,true,false,false,false,true,true,true,true,14Left,11,4,Resident Only
+378,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,14Left,15,4,Resident Only
+379,true,true,true,false,false,true,true,true,false,false,true,true,true,true,true,14Left,11,5,Resident Only
+380,true,true,false,false,false,false,false,false,true,false,false,true,true,true,true,14Left,7,3,Resident Only
+381,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,14Left,7,3,Resident Only
+382,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,14Left,3,1,Resident Only
+383,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,14Left,3,1,Resident Only

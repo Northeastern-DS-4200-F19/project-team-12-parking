@@ -24,25 +24,34 @@ def number_of_unique_cars(row):
 def parking_intervals(row):
     sparse_list = [_is_car(item) for item in _sparse_cars(row)]
 
+def spot_type(row):
+    return row[5]
+
 def new_data(row):
     return pd.Series({'unique_zone': unique_zone(row), 
                       'number_of_times_occupied': number_of_times_occupied(row), 
-                      'number_of_unique_cars': number_of_unique_cars(row)})
+                      'number_of_unique_cars': number_of_unique_cars(row),
+                      'spot_type': spot_type(row)})
 
 new_df = df.apply(new_data, axis=1)
 
-heatmap = defaultdict(lambda: 0)
+heatmap = defaultdict(lambda: defaultdict(lambda: 0))
 max_number_of_times_occupied = 0
 max_number_of_unique_cars = 0
 for index, row in new_df.iterrows():
-    heatmap[(row.number_of_times_occupied, row.number_of_unique_cars)] += 1
+    cell = heatmap[(row.number_of_times_occupied, row.number_of_unique_cars)]
+    cell["total"] += 1
+    cell[row.spot_type] += 1
+    print(row.spot_type)
     max_number_of_times_occupied = max((row.number_of_times_occupied, max_number_of_times_occupied))
     max_number_of_unique_cars = max((row.number_of_unique_cars, max_number_of_unique_cars))
 
-heatmap_csv = "number_of_times_occupied,number_of_unique_cars,amount\n"
+heatmap_csv = "number_of_times_occupied,number_of_unique_cars,total,resident,unrestricted,metered,handicapped,visitor\n"
 for x in range(max_number_of_times_occupied):
     for y in range(max_number_of_unique_cars):
-        heatmap_csv += f"{x},{y},{heatmap[(x, y)] if (x,y) in heatmap else 0}\n"
+        cell = heatmap[(x, y)]
+        heatmap_csv += f'{x},{y},{cell["total"]},{cell["Resident Only"]},{cell["Unrestricted"]},{cell["Metered"]},' \
+                       f'{cell["Handicapped"]},{cell["Visitor"] + cell["Visitor Parking"]}\n'
 with open("heatmap.csv", "w") as f:
     f.write(heatmap_csv)
 
