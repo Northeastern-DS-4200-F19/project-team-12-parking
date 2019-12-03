@@ -1,13 +1,13 @@
 
 // set the dimensions and margins of the graph
-var margin_1 = {top: 10, right: 30, bottom: 50, left: 60},
+let margin_1 = {top: 10, right: 30, bottom: 50, left: 60},
     width_1 = 460 - margin_1.left - margin_1.right,
     height_1 = 400 - margin_1.top - margin_1.bottom;
 
 // append the svg object to the body of the page
 let width = width_1 + margin_1.left + margin_1.right
 let height = height_1 + margin_1.top + margin_1.bottom
-var plot_1 = d3.select("#plot-1-holder")
+let plot_1 = d3.select("#plot-1-holder")
   .append("svg")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("preserveAspectRatio", "xMinYMin meet")
@@ -17,16 +17,16 @@ var plot_1 = d3.select("#plot-1-holder")
           "translate(" + margin_1.left + "," + margin_1.top + ")");
 
 // div for a tooltip
-var div = d3.select("body").append("div")	
+let div = d3.select("body").append("div")	
     .attr("class", "tooltip")				
     .style("opacity", 0);
 
 d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-12-parking/gh-pages/data/heatmap.csv").then(function(data) {
-  var myGroups = d3.map(data, function(d){return d.number_of_times_occupied;}).keys()
-  var myVars = d3.map(data, function(d){return d.number_of_unique_cars;}).keys()
+  let myGroups = d3.map(data, function(d){return d.number_of_times_occupied;}).keys()
+  let myVars = d3.map(data, function(d){return d.number_of_unique_cars;}).keys()
 
   // Build X scales and axis:
-  var x = d3.scaleBand()
+  let x = d3.scaleBand()
     .range([ 0, width_1 ])
     .domain(myGroups)
     .padding(0.05)
@@ -45,7 +45,7 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
     .text("number of hours occupied");
 
   // Build Y scales and axis:
-  var y = d3.scaleBand()
+  let y = d3.scaleBand()
     .range([ height_1, 0 ])
     .domain(myVars)
     .padding(0.05);
@@ -64,12 +64,12 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
     .text("number of unique cars"); 
 
   // Build color scale
-  var myColor = d3.scaleSequential()
+  let myColor = d3.scaleSequential()
     .interpolator(d3.interpolateBuGn)
     .domain([0,15])
 
     // Three function that change the tooltip when user hover / move / leave a cell
-  var mouseover = function(d) {
+  let mouseover = function(d) {
     d3.selectAll(".time")
       .style("opacity", 0.4)
     d3.selectAll(".nt" + d.number_of_times_occupied + ".uq" + d.number_of_unique_cars)
@@ -78,20 +78,20 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
       .style("opacity", 1)
       .style("stroke", "black")
 
-    window.update(d.number_of_times_occupied, d.number_of_unique_cars)
+    window.update_timeslices(d.number_of_times_occupied, d.number_of_unique_cars)
   }
-  var mousemove = function(d) {
+  let mousemove = function(d) {
     div.transition()		
-      .duration(200)		
+      .duration(100)		
       .style("opacity", .9)
-    spot = d.amount == 1 ? " spot" : " spots"
+    spot = d.total == 1 ? " spot" : " spots"
     car = d.number_of_unique_cars == 1 ? "car" : "cars"
     hour = d.number_of_times_occupied == 1 ? "hour" : "hours"
-    div.html(d.amount + "" + spot + " where " + d.number_of_unique_cars + "\n" + car + " parked over " + d.number_of_times_occupied + " " + hour + ".")	
+    div.html(d.total + "" + spot + " where " + d.number_of_unique_cars + "\n" + car + " parked over " + d.number_of_times_occupied + " " + hour + ".")	
       .style("left", (d3.event.pageX) + "px")		
       .style("top", (d3.event.pageY - 28) + "px")
   }
-  var mouseleave = function(d) {
+  let mouseleave = function(d) {
     div.transition()		
       .duration(500)		
       .style("opacity", 0);	
@@ -102,33 +102,63 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
       .style("stroke", "none")
   }
 
+  function filtered_data(spot_types) {
+    return spot_types == null ? data : data.filter(d => {
+      spot_types.forEach(e => {
+        if (d[e] != 0) { return true; }
+      })
+      return false;
+    })
+  }
+
   // add the squares
-  plot_1.selectAll()
-    .data(data, function(d) {return d.number_of_times_occupied+':'+d.number_of_unique_cars;})
+  function enter_data(_data) {
+    plot_1.selectAll()
+    .data(_data, function(d) {return d.number_of_times_occupied+':'+d.number_of_unique_cars;})
     .enter()
+    // .filter(d => {
+    //   return !((d.number_of_times_occupied == 0 && d.number_of_unique_cars != 0) ||
+    //            (d.number_of_times_occupied != 0 && d.number_of_unique_cars == 0))
+    // })
     .append("rect")
-    .attr("x", function(d) { return x(d.number_of_times_occupied) })
-    .attr("y", function(d) { return y(d.number_of_unique_cars) })
-    .attr("rx", 4)
-    .attr("ry", 4)
-    .attr("width", x.bandwidth() )
-    .attr("height", y.bandwidth() )
-    .attr("class", function(d) { return "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars })
-    .attr("fill", function(d) { return myColor(d.amount)} )
-    .style("stroke-width", 4)
-    .style("stroke", "none")
-    .style("opacity", 0.8)
-    .on("mouseover", mouseover)
+      .attr("x", function(d) { return x(d.number_of_times_occupied) })
+      .attr("y", function(d) { return y(d.number_of_unique_cars) })
+      .attr("rx", 4)
+      .attr("ry", 4)
+      .attr("width", x.bandwidth() )
+      .attr("height", y.bandwidth() )
+      .attr("class", function(d) { return "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars })
+      .attr("fill", function(d) { return myColor(d.total)} )
+      .style("stroke-width", 4)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
     .on("mousemove", mousemove)
+    .filter(d => d.number_of_times_occupied != 0 && d.number_of_unique_cars != 0)
+    .on("mouseover", mouseover)
     .on("mouseleave", mouseleave)
+  }
+
+  function exit_data(_data) {
+    plot_1.selectAll(".rect")
+      .remove()
+  }
+
+  window.update_heatmap = function(spot_types) {
+    let heatmap_data = filtered_data(spot_types);
+    
+    exit_data(heatmap_data);
+    enter_data(heatmap_data);
+  };
+
+  window.update_heatmap(null);
 })
 
 // set the dimensions and margins of the graph
-var margin_2 = {top: 10, right: 30, bottom: 30, left: 60},
+let margin_2 = {top: 10, right: 30, bottom: 30, left: 60},
     width_2 = 320 - margin_2.left - margin_2.right,
     height_2 = 400 - margin_2.top - margin_2.bottom;
 
-var plot_2 = d3.select("#plot-2-holder")
+let plot_2 = d3.select("#plot-2-holder")
 .append("svg")
   .attr("width", width_2 + margin_2.left + margin_2.right)
   .attr("height", height_2 + margin_2.top + margin_2.bottom)
@@ -141,20 +171,20 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
 
   // Add X axis
   plot_2.x_scale = d3.scaleLinear()
-  .domain([0, 383])
-  .rangeRound([0, width_2]);
-  plot_2.x = d3.axisBottom().scale(plot_2.x_scale).tickValues([]);
+    .domain([0, 383])
+    .rangeRound([0, width_2]);
+  plot_2.x = d3.axisBottom().scale(plot_2.x_scale);
   plot_2.append("g")
-  .attr("class", "x")
-  .attr("transform", "translate(0," + height_2 + ")")
+    .attr("class", "x")
+    .attr("transform", "translate(0," + height_2 + ")")
   .call(plot_2.x);
 
   // Add Y axis
   plot_2.y = d3.scaleLinear()
-  .domain([0, 15])
-  .range([height_2, 0]);
+    .domain([0, 15])
+    .range([height_2, 0]);
   plot_2.append("g")
-  .call(d3.axisLeft(plot_2.y).scale(plot_2.y).ticks(TIMES.length)
+    .call(d3.axisLeft(plot_2.y).scale(plot_2.y).ticks(TIMES.length)
     .tickFormat(function(i) {
       return TIMES[TIMES.length - i - 1];
     }));
@@ -170,8 +200,8 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
     plot_2.selectAll(".data")
       .data(_data)
       .enter()
-      .append("g")
-      .attr("class", d => "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars + " data")
+        .append("g")
+        .attr("class", d => "nt" + d.number_of_times_occupied + " uq" + d.number_of_unique_cars + " data")
       .selectAll("rect")
       .data((d, i) => {
         return TIMES.map((time, index) => {
@@ -181,14 +211,14 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
           })
         })
       .enter()
-      .filter(d => d.parked == 'true')
-      .append("rect")
-      .attr("x", d => plot_2.x_scale(d.x) + 3)
-      .attr("y", d => plot_2.y(d.y) - (plot_2.y(d.y - 1) - plot_2.y(d.y)))
-      .attr("width", d => plot_2.x_scale(d.x) - plot_2.x_scale(d.x - 1) - 3)
-      .attr("height", d => plot_2.y(d.y - 1) - plot_2.y(d.y))
-      .attr("fill", "#469963")
-      .attr("opacity", 1)
+        .filter(d => d.parked == 'true')
+        .append("rect")
+          .attr("x", d => plot_2.x_scale(d.x) + 3)
+          .attr("y", d => plot_2.y(d.y) - (plot_2.y(d.y - 1) - plot_2.y(d.y)))
+          .attr("width", d => plot_2.x_scale(d.x) - plot_2.x_scale(d.x - 1) - 3)
+          .attr("height", d => plot_2.y(d.y - 1) - plot_2.y(d.y))
+          .attr("fill", "#469963")
+          .attr("opacity", 1)
   }
 
   function exit_data(_data) {
@@ -200,19 +230,18 @@ d3.csv("https://raw.githubusercontent.com/Northeastern-DS-4200-F19/project-team-
     plot_2.x_scale.domain([0, Math.max(_data.length, 5)]);
     plot_2.select(".x")
       .transition()
-        .call(plot_2.x);
+        .call(plot_2.x.tickValues([...Array(_data.length).keys()]));
   }
 
-  window.update = function(times_occupied, unique_cars) {
-    var time_data = filtered_data(data, times_occupied, unique_cars);
-    console.log(times_occupied, unique_cars)
+  window.update_timeslices = function(times_occupied, unique_cars) {
+    let time_data = filtered_data(data, times_occupied, unique_cars);
     
     exit_data(time_data);
     update_axis(time_data);
     enter_data(time_data);
   };
 
-  window.update(filtered_data(data, null, null));
+  window.update_timeslices(filtered_data(data, null, null));
 });
 
 
