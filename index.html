@@ -1,216 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Metadata -->
-	<head>
-    <meta charset="utf-8">
-    
-    <!-- Title -->
-		<title>Project Team 12: Parking, DS 4200 F19</title>
-    
-    <!-- CSS Styling -->
-		<link rel="stylesheet" href="style.css">
-    
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/site.webmanifest">
-    <link rel="shortcut icon" href="favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-	</head>
-  
-  <!-- Main page content -->
-	<body>
+<!-- Metadata -->
 
-    <!-- Update this with your GitHub repo URL -->
-    <span id="forkongithub"><a href="https://github.com/Northeastern-DS-4200-F19/project-team-12-parking">Fork me on GitHub</a></span>
-  
-  
-    <!-- Your writeup goes here -->
-    <div class="content-column">
-    
+<head>
+  <meta charset="utf-8">
 
-      <h1>Project Team 12: Parking, DS 4200 F19</h1>
+  <!-- Title -->
+  <title>Project Team 12: Parking, DS 4200 F19</title>
 
-      
-      <p><strong>Caroline Hartel</strong>, <strong>Nicholas Chiaparri</strong>, <strong>Sam Caccavale</strong></p>
-      
-      <p>Service-Learning Course Project as part of <a href="http://www.ccs.neu.edu/home/cody/courses/ds4200-f19/">DS 4200: Information Presentation and Visualization</a>, taught by <a href="https://cody.khoury.northeastern.edu/">Prof. Cody Dunne</a>, <a href="https://visualization.khoury.northeastern.edu/">Data Visualization @ Khoury</a>, <a href="https://www.khoury.northeastern.edu/">Northeastern University</a>.</p>
-      
-      
-      <h1>Motivation</h1>
-      
+  <!-- CSS Styling -->
+  <link rel="stylesheet" href="style.css">
 
-      <p><em>Summary of user needs and motivating questions.</em></p>
-      <p><em>Expectation: There is a clear focus, and a developed explanation of the problem, and a reasonable response is proposed.</em></p>
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="shortcut icon" href="favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
 
-      <p>The user for this project is the Chester Square Neighborhood Association. The goal of this group is "to bring together all persons who live, work or own property within the boundaries of the association for the purpose of promoting neighborly interaction, sharing information and discussing common problems. Further, to promote the implementation of beneficial programs, alone, and in conjunction with other groups and government agencies, to promote the health, well-being, and security of the neighborhood. To conduct such other activities in furtherance of the charitable purpose as may be carried out by a corporation organized under M. G.L. ch. 180 and described in Section 501(c)(3) of the Internal Revenue Code" (CSNA bylaws). </p>
+<!-- Main page content -->
 
-      <p>With such goals in mind, the group has identified parking as a common problem. They say it is nearly impossible to find parking spaces, and there are nowhere near enough spots for all the residents living there. Additionally, the parking spots that do exist are not being used efficiently. They are interested to know the answers to a few key questions about the current parking situation. </p>
+<body>
 
-      <p> 1. How long do cars typically stay parked in their spaces? And how does this differ between different types of spots and different types of cars?</p>
-
-      <p> 2. How often are the various spots occupied and how often are they empty? When?</p>
-
-      <p> 3. Who is typically parking in each type of spot? When? </p>
-
-      <p> Using questions like these to drive our data analysis provides valuable insights into the parking patterns of the area. For example, looking at who (resident or nonresident) is parking in each spot at different times of day can give information such as whether residents can't find parking because non-residents are parking illegally in their spots, or if residents are already filling up all spot types and there's just not enough spaces. Similarly, looking at how long cars are staying in the spots can indicate whether it might be a good idea to put a garage or lot somewhere nearby (if cars are just sitting there all day for storage). </p>
-
-      <p> We have created these visualizations in order to help the community find easier access to parking in the Chester Square area. The intent of these visualizations is to guide changes to parking policies and parking utilization of the area. The insights gained from this parking study and the vizualizations created from that data should result in improvements in how both residents and visitors can use the area to its fullest extent. </p>
-      
-
-      
-      <h1>Visualization</h1>
-      
-      
-    </div>
-    
-    <!-- Your visualization here -->
-    <div id="vis-holder">
-        <div id="plot-1-holder"> </div>
-        <div id="plot-2-holder"> </div>
-    </div>
-    
-    <!-- Your writeup goes here -->
-    <div class = "content-column">
+  <!-- Update this with your GitHub repo URL -->
+  <span id="forkongithub"><a href="https://github.com/Northeastern-DS-4200-F19/project-team-12-parking">Fork me on
+      GitHub</a></span>
 
 
-      <h1>Visualization explanation</h1>
-      
-      <a href="https://docs.google.com/presentation/d/1AonbC8HMvM8rvXw4_a3HGqjOLimfOtbeQuWdVcoCGwU/edit?usp=sharing">Slides.</a>
-      
-      <p> Our group decided to make a visualization that would serve as a starting point for investigating how different parking spots in the chester square neightborhood are used.  
-          In this vien, we decided that two interesting metrics would be the number of unique cars that parked in a spot, and how many hours out of the 15 hour survery that a spot is occupied.
-          To connect these two metrics, we made a heatmap with the respective axees, and a second visualization that shows the exact hours a spots were used when you hover over an element in the heatmap.  
-      </p>
-      <p>
-        This already showes some interesting behavior, like how many spots that were used twice in a day were used in the morning and evening and vacant during midday.
-        We hope that using this set of visualizations will be a great jumping off point for any analysis about how the parking spots in the chester square neightborhood are used.
-      </p>
+  <!-- Your writeup goes here -->
+  <div class="content-column">
 
-      <h1>Data Analysis</h1>
-      <p> The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot and a column for each hour of the day. 
-        This made it easy to record whether or not a space was being used, was free or was being obstructed in some other way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded for non-Massachusetts vehicles.
 
-      </p>
+    <h1>Project Team 12: Parking, DS 4200 F19</h1>
 
-      <h1>Task Analysis</h1>
 
-      <img src="text_table.png" style="width: 100%;">
+    <p><strong>Caroline Hartel</strong>, <strong>Nicholas Chiaparri</strong>, <strong>Sam Caccavale</strong></p>
 
-      <p>
-        The primary task of our group was to collect and then analyze data to determine how exactly the park’s 
-        parking spaces are being used. This will help inform the Chester Square Neighborhood Association in 
-        how they allocate and regulate parking spaces, as the resident use case is likely to be very different than 
-        people wanting to visit the park from out of the neighborhood.
-      </p>
-      <p>
-        This is done by completing three domain tasks. Our visualizations help users 
-        determine how long people remain parked in a given spot, determine whether or 
-        not residents or visitors are primarily using the parking spots and determine
-        when spots are occupied. Each of these visualizations intend to enable users to
-        "discover", since they enable users to obtain insights and new knowledge that was
-        not previously known. These visualizations also enable users to "browse" since users
-        can search for one or more items that  fit some kind of specification or a 
-        range of attribute values. These visualizations "summarize" the data by 
-        providing a comprehensive view of our findings while also allowing for some 
-        comparison. 
+    <p>Service-Learning Course Project as part of <a href="http://www.ccs.neu.edu/home/cody/courses/ds4200-f19/">DS
+        4200: Information Presentation and Visualization</a>, taught by <a
+        href="https://cody.khoury.northeastern.edu/">Prof. Cody Dunne</a>, <a
+        href="https://visualization.khoury.northeastern.edu/">Data Visualization @ Khoury</a>, <a
+        href="https://www.khoury.northeastern.edu/">Northeastern University</a>.</p>
 
-      </p>
-      <p>
-        We’d like to distinguish the normal use case of parking in the area as well as any other use cases and 
-        use these to inform how parking should be designed in the area.
 
-      </p>
+    <h1>Motivation</h1>
+
+
+    <p><em>Summary of user needs and motivating questions.</em></p>
+    <p><em>Expectation: There is a clear focus, and a developed explanation of the problem, and a reasonable response is
+        proposed.</em></p>
+
+    <p>The user for this project is the Chester Square Neighborhood Association. The goal of this group is "to bring
+      together all persons who live, work or own property within the boundaries of the association for the purpose of
+      promoting neighborly interaction, sharing information and discussing common problems. Further, to promote the
+      implementation of beneficial programs, alone, and in conjunction with other groups and government agencies, to
+      promote the health, well-being, and security of the neighborhood. To conduct such other activities in furtherance
+      of the charitable purpose as may be carried out by a corporation organized under M. G.L. ch. 180 and described in
+      Section 501(c)(3) of the Internal Revenue Code" (CSNA bylaws). </p>
+
+    <p>With such goals in mind, the group has identified parking as a common problem. They say it is nearly impossible
+      to find parking spaces, and there are nowhere near enough spots for all the residents living there. Additionally,
+      the parking spots that do exist are not being used efficiently. They are interested to know the answers to a few
+      key questions about the current parking situation. </p>
+
+    <p> 1. How long do cars typically stay parked in their spaces? And how does this differ between different types of
+      spots and different types of cars?</p>
+
+    <p> 2. How often are the various spots occupied and how often are they empty? When?</p>
+
+    <p> 3. Who is typically parking in each type of spot? When? </p>
+
+    <p> Using questions like these to drive our data analysis provides valuable insights into the parking patterns of
+      the area. For example, looking at who (resident or nonresident) is parking in each spot at different times of day
+      can give information such as whether residents can't find parking because non-residents are parking illegally in
+      their spots, or if residents are already filling up all spot types and there's just not enough spaces. Similarly,
+      looking at how long cars are staying in the spots can indicate whether it might be a good idea to put a garage or
+      lot somewhere nearby (if cars are just sitting there all day for storage). </p>
+
+    <p> We have created these visualizations in order to help the community find easier access to parking in the Chester
+      Square area. The intent of these visualizations is to guide changes to parking policies and parking utilization of
+      the area. The insights gained from this parking study and the vizualizations created from that data should result
+      in improvements in how both residents and visitors can use the area to its fullest extent. </p>
 
 
 
-      <h1>Design Process</h1>
-      
-      <p><em>Sketches and design choices to justify final visualization.</em></p>
-
-      <p><em>Expectation: Evidence of iterative improvement.
-      Logical discussion of design choices grounded in theory from course.
-      Discusses feedback from usability testing.</em></p>
-<table> 
-<tr>
-<td> Initial Sketch </td>
-<td>   </td>
-<td> Web Sketch </td>
-<td>   </td>
-</tr>
-<tr>
-<td> <img src="./Sketch3.JPG" 
-	width=300 
-	alt="Sketch 3" > </td>
-<td>   </td>
-<td> <img src="./WebSketch1.PNG" 
-	width=300 
-	alt="Web sketch 1" > </td>
-<td>   </td>
-</tr>
-</table>	
-
-<p> The above images show the iterations which led to our first visualization, the map. It began with the sketch, demonstrating the basic idea of a map and suggesting elements showing overall or average occupancies for each section with a heat map. As a group, we evaluated the idea but determined that the map concept could be better used to orient the user to the area and give them an overview of what the current parking situation looks like. We also decided that the occupancy rates could be better shown in other visualizations. So, the sketch developed into the second image seen above. This was developed on the computer and is clearly closer to what our actual visualization looks like. In this visualization, the user gets an overview of the parking layout and can get more details by mousing over the spot types and causing their section to highlight on the map in a categorical color scheme. We thought the CSNA would be able to use this feature to look at specific areas of their choosing, such as where they live, and know what spot types exist there. As said before, we thought that the occupancy could be better shown using different visualizations; therefore we enable the user to look at the occupancy of their chosen zones on another visualization. They can use brushing as well to choose to look at the occupancy of multiple parking zones. </p>
+    <h1>Visualization</h1>
 
 
-<table> 
-<tr>
-<td> Initial Sketch 1 </td>
-<td>   </td>
-<td> Initial Sketch 2 </td>
-<td>   </td>
-<td> Web Sketch </td>
-</tr>
-<tr>
-<td> <img src="./Sketch2.JPG" 
-	width=300 
-	alt="Sketch 2" > </td>
-<td>   </td>
-<td> <img src="./Sketch1.JPG" 
-	width=300 
-	alt="Sketch 1" > </td>
-<td>   </td>
-<td> </span>
-<img src="./WebSketch2and3.PNG" 
-	width=500 
-	alt="Web sketches 2 and 3" > </td>
-</tr>
-</table>
+  </div>
 
-<p> 
-Above here you see 3 images: two paper sketches and a more tuned web sketch. The paper sketches are what we started with, with the idea in mind that the first one would be used to evaluate how residents and nonresidents were using certain types of spots and for how long, and the second one would be used to see that information on a more granular level by brushing the first. We evaluated these visualizations and decided that while the x axis on Initial Sketch 1 held valuable information, the y axis didn't show information we thought would be as useful. We adapted the visualization and came up with what you see in the web sketch: 3 graphs that are connected via interactivity. The idea was that the user could see an overview of the average occupancy of each spot type compared to its capacity and then drill in to see how many unique cars parked in each spot over its total duration time and for how long. We wanted these graphs to be adjusted to different time windows using the gauge seen below the first graph. After considering what the CSNA wanted to see and what we can do in D3, we determined the first graph didn't show enough information to be value-added enough to keep nor did the gauge. The drill-down information is what really mattered, so we cut out the first graph and went with the information seen in graph 2: # of unique cars and % of 12 hours occupied. For the final visualization we changed the x axis to be a count of hours rather than a percentage and also converted the visualization into a heat map which uses a sequential color scheme. We made this choice because we thought it was a friendlier view to the user and an appropriate use of color based on the data. For the final visualization we also switched the axes on the bottom graph to make it easier to read. We linked these two visualizations. 
-</p>
+  <!-- Your visualization here -->
+  <div id="vis-holder">
+    <div id="plot-1-holder"> </div>
+    <div id="plot-2-holder"> </div>
+  </div>
+
+  <!-- Your writeup goes here -->
+  <div class="content-column">
 
 
+    <h1>Visualization explanation</h1>
+
+    <a
+      href="https://docs.google.com/presentation/d/1AonbC8HMvM8rvXw4_a3HGqjOLimfOtbeQuWdVcoCGwU/edit?usp=sharing">Slides.</a>
+
+    <p> Our group decided to make a visualization that would serve as a starting point for investigating how different
+      parking spots in the chester square neightborhood are used.
+      In this vien, we decided that two interesting metrics would be the number of unique cars that parked in a spot,
+      and how many hours out of the 15 hour survery that a spot is occupied.
+      To connect these two metrics, we made a heatmap with the respective axees, and a second visualization that shows
+      the exact hours a spots were used when you hover over an element in the heatmap.
+    </p>
+    <p>
+      This already showes some interesting behavior, like how many spots that were used twice in a day were used in the
+      morning and evening and vacant during midday.
+      We hope that using this set of visualizations will be a great jumping off point for any analysis about how the
+      parking spots in the chester square neightborhood are used.
+    </p>
+
+    <h1>Data Analysis</h1>
+    <p> The data used in these visulizations was recorded on an hourly basis from 6 AM to 8 PM. Each hour, a pair of
+      data collectors walked a preplanned route and recorded all of the necessary data. The data recorded includes the
+      status of each spot on the route each hour, with statuses including: --> to indicate the same car as the previous
+      hour, --- to indicate empty, X to indicate blocked, or the first three digits of a license plate to indicate a new
+      car (with a check mark for those with a South End resident parking permit, and a location abbreviation if out of
+      state).This data was recorded on sheets designed specifically for this area and had a row a for each parking spot
+      and a column for each hour of the day.
+      This made it easy to record whether or not a space was being used, was free or was being obstructed in some other
+      way, such as construction or a vehicle taking up two spots. License plates were also recorded for each of the
+      vehicles in order to determine how long cars remained parked in spots. License plates' states were also recorded
+      for non-Massachusetts vehicles.
+
+    </p>
+
+    <h1>Task Analysis</h1>
+
+    <img src="text_table.png" style="width: 100%;">
+
+    <p>
+      The primary task of our group was to collect and then analyze data to determine how exactly the park’s
+      parking spaces are being used. This will help inform the Chester Square Neighborhood Association in
+      how they allocate and regulate parking spaces, as the resident use case is likely to be very different than
+      people wanting to visit the park from out of the neighborhood.
+    </p>
+    <p>
+      This is done by completing three domain tasks. Our visualizations help users
+      determine how long people remain parked in a given spot, determine whether or
+      not residents or visitors are primarily using the parking spots and determine
+      when spots are occupied. Each of these visualizations intend to enable users to
+      "discover", since they enable users to obtain insights and new knowledge that was
+      not previously known. These visualizations also enable users to "browse" since users
+      can search for one or more items that fit some kind of specification or a
+      range of attribute values. These visualizations "summarize" the data by
+      providing a comprehensive view of our findings while also allowing for some
+      comparison.
+
+    </p>
+    <p>
+      We’d like to distinguish the normal use case of parking in the area as well as any other use cases and
+      use these to inform how parking should be designed in the area.
+
+    </p>
 
 
-      <h1>Conclusion</h1>
 
-      <p><em>Short summary of work completed and areas for improvement/future-work.</em></p>
-      
-      <p><em>Expectation: Meaningfully wraps up project and has good future directions.</em></p>
+    <h1>Design Process</h1>
 
-	<p> The Chester Square Neighborhood Association asked the us to help them with their parking situation. It was difficult to find parking in the area, and they wondered if there were even enough spots for all the residents. They weren't sure there were the right types of spots near them, or the right distribution of those spots. </p>     
+    <p><em>Sketches and design choices to justify final visualization.</em></p>
 
-<p> 	In order to answer their questions, we needed to collect data about the current parking patterns. We wanted to know what types of spots were located where, when they were empty, when they weren't, who was parking in them, when they were parking there, and for how long they were staying. </p> 
+    <p><em>Expectation: Evidence of iterative improvement.
+        Logical discussion of design choices grounded in theory from course.
+        Discusses feedback from usability testing.</em></p>
+    <table>
+      <tr>
+        <td> Initial Sketch </td>
+        <td> Web Sketch </td>
+      </tr>
+      <tr>
+        <td><img src="./Sketch3.JPG" width=300 alt="Sketch 3"></td>
+        <td><img src="./WebSketch1.PNG" width=300 alt="Web sketch 1"></td>
+      </tr>
+    </table>
 
-<p>	In conjunction with other groups needing the same data, we conducted a parking study in the Chester Square area. After ensuring the right control conditions (typical week day, no event closures, minimal [unavoidable] construction, no holidays, fine weather, etc), we collected data in the area for 12 hours. We recorded which car was parked in each spot every hour. We also recorded spots that were blocked for any reason or in which construction was occuring. </p>
-      <h1>Acknowledgments</h1>
+    <p> The above images show the iterations which led to our first visualization, the map. It began with the sketch,
+      demonstrating the basic idea of a map and suggesting elements showing overall or average occupancies for each
+      section with a heat map. As a group, we evaluated the idea but determined that the map concept could be better
+      used to orient the user to the area and give them an overview of what the current parking situation looks like. We
+      also decided that the occupancy rates could be better shown in other visualizations. So, the sketch developed into
+      the second image seen above. This was developed on the computer and is clearly closer to what our actual
+      visualization looks like. In this visualization, the user gets an overview of the parking layout and can get more
+      details by mousing over the spot types and causing their section to highlight on the map in a categorical color
+      scheme. We thought the CSNA would be able to use this feature to look at specific areas of their choosing, such as
+      where they live, and know what spot types exist there. As said before, we thought that the occupancy could be
+      better shown using different visualizations; therefore we enable the user to look at the occupancy of their chosen
+      zones on another visualization. They can use brushing as well to choose to look at the occupancy of multiple
+      parking zones. </p>
 
-      <ul>
-        <li><a href="https://d3js.org/">D3: Data-Driven Documents</a> by Mike Bostock.</li>
-        <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub" ribbon</a> by Chris Heilmann.</li>
-      </ul>
-      <ul>
-      	<li><a> Chester Square Neighborhood Association</a></li>
-      </ul>
-    </div>
-    
-    <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
-    <script src="https://d3js.org/d3.v5.js"></script>
-    <script src="visualization.js"></script>
-	</body>
+
+    <table>
+      <tr>
+        <td> Initial Sketch 1 </td>
+        <td> Initial Sketch 2 </td>
+        <td> Web Sketch </td>
+      </tr>
+      <tr>
+        <td><img src="./Sketch2.JPG" width=300 alt="Sketch 2"> </td>
+        <td><img src="./Sketch1.JPG" width=300 alt="Sketch 1"></td>
+        <td><img src="./WebSketch2and3.PNG" width=500 alt="Web sketches 2 and 3"></td>
+      </tr>
+    </table>
+
+    <p>
+      Above here you see 3 images: two paper sketches and a more tuned web sketch. The paper sketches are what we
+      started with, with the idea in mind that the first one would be used to evaluate how residents and nonresidents
+      were using certain types of spots and for how long, and the second one would be used to see that information on a
+      more granular level by brushing the first. We evaluated these visualizations and decided that while the x axis on
+      Initial Sketch 1 held valuable information, the y axis didn't show information we thought would be as useful. We
+      adapted the visualization and came up with what you see in the web sketch: 3 graphs that are connected via
+      interactivity. The idea was that the user could see an overview of the average occupancy of each spot type
+      compared to its capacity and then drill in to see how many unique cars parked in each spot over its total duration
+      time and for how long. We wanted these graphs to be adjusted to different time windows using the gauge seen below
+      the first graph. After considering what the CSNA wanted to see and what we can do in D3, we determined the first
+      graph didn't show enough information to be value-added enough to keep nor did the gauge. The drill-down
+      information is what really mattered, so we cut out the first graph and went with the information seen in graph 2:
+      # of unique cars and % of 12 hours occupied. For the final visualization we changed the x axis to be a count of
+      hours rather than a percentage and also converted the visualization into a heat map which uses a sequential color
+      scheme. We made this choice because we thought it was a friendlier view to the user and an appropriate use of
+      color based on the data. For the final visualization we also switched the axes on the bottom graph to make it
+      easier to read. We linked these two visualizations.
+    </p>
+
+    <h1>Conclusion</h1>
+
+    <p><em>Short summary of work completed and areas for improvement/future-work.</em></p>
+
+    <p><em>Expectation: Meaningfully wraps up project and has good future directions.</em></p>
+
+    <p> The Chester Square Neighborhood Association asked the us to help them with their parking situation. It was
+      difficult to find parking in the area, and they wondered if there were even enough spots for all the residents.
+      They weren't sure there were the right types of spots near them, or the right distribution of those spots. </p>
+
+    <p> In order to answer their questions, we needed to collect data about the current parking patterns. We wanted to
+      know what types of spots were located where, when they were empty, when they weren't, who was parking in them,
+      when they were parking there, and for how long they were staying. </p>
+
+    <p> In conjunction with other groups needing the same data, we conducted a parking study in the Chester Square area.
+      After ensuring the right control conditions (typical week day, no event closures, minimal [unavoidable]
+      construction, no holidays, fine weather, etc), we collected data in the area for 12 hours. We recorded which car
+      was parked in each spot every hour. We also recorded spots that were blocked for any reason or in which
+      construction was occuring. </p>
+    <h1>Acknowledgments</h1>
+
+    <ul>
+      <li><a href="https://d3js.org/">D3: Data-Driven Documents</a> by Mike Bostock.</li>
+      <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub"
+          ribbon</a> by Chris Heilmann.</li>
+    </ul>
+    <ul>
+      <li><a> Chester Square Neighborhood Association</a></li>
+    </ul>
+  </div>
+
+  <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
+  <script src="https://d3js.org/d3.v5.js"></script>
+  <script src="visualization.js"></script>
+</body>
+
 </html>
